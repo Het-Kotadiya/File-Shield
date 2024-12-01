@@ -15,6 +15,8 @@ import { Label } from "@/components/ui/label";
 import { Eye, EyeClosed } from "lucide-react";
 
 function MyCard() {
+  const backendUrl = "https://file-shield.onrender.com";
+
   const [showPassword, setShowPassword] = useState(false);
   const [file, setFile] = useState(null);
   const [key, setKey] = useState("");
@@ -47,7 +49,7 @@ function MyCard() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/files/encrypt",
+        `${backendUrl}/api/files/encrypt`,
         formData,
         {
           headers: {
@@ -95,7 +97,7 @@ function MyCard() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/files/decrypt",
+        `${backendUrl}/api/files/decrypt`,
         formData,
         {
           headers: {
