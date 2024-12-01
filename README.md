@@ -130,7 +130,7 @@ npm run dev
 4. Decrypted file is made available for download
 
 ## 📸 ScreenShots
+![Screenshot 2024-12-01 140334](https://github.com/user-attachments/assets/af630c28-4205-43a9-bd4d-e7a4ae4d6463)
 
-![alt text](image.png)
 
 Project Link: [https://github.com/your-username/file-encryption-app](https://github.com/your-username/file-encryption-app)
