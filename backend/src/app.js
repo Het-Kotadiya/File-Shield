@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(cors({
     origin: [
-        'https://file-shield-xvfi-2udt72mim-het-kotadiyas-projects.vercel.app/', // Your Vercel frontend URL
+        'https://file-shield-xvfi.vercel.app/', // Your Vercel frontend URL
         'http://localhost:8080' // Local development URL
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
