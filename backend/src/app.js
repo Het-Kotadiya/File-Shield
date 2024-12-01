@@ -11,11 +11,11 @@ const app = express();
 // Middleware
 app.use(cors({
     origin: [
-        'https://file-shield-xvfi.vercel.app/', // Your Vercel frontend URL
+        'https://file-shield.vercel.app/', // Your Vercel frontend URL
         'http://localhost:8080' // Local development URL
       ],
-      methods: ['GET', 'POST', 'PUT', 'DELETE'],
-      allowedHeaders: ['Content-Type', 'Authorization']
+      methods: ['GET', 'POST'],
+      allowedHeaders: ['Content-Type']
 }));
 app.use(helmet());
 app.use(compression());
