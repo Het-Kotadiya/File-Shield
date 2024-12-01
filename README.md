@@ -1,6 +1,6 @@
 # File-Shield - File Encryption & Decryption Tool
 
-Project Live Preview: (https://file-shield-xvfi.vercel.app/)
+Project Live Preview: (https://file-shield.vercel.app)
 
 ## 🔐 Project Overview
 
